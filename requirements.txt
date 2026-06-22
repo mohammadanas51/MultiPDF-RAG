@@ -9,3 +9,5 @@ langchain_google_genai
 fastapi
 uvicorn
 python-multipart
+langchain-text-splitters
+langchain-community
