@@ -11,3 +11,4 @@ uvicorn
 python-multipart
 langchain-text-splitters
 langchain-community
+langchain-classic
