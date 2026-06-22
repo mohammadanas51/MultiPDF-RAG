@@ -46,7 +46,7 @@ function App() {
     });
 
     try {
-      const response = await fetch('http://localhost:8000/upload', {
+      const response = await fetch('https://multipdf-rag.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
@@ -78,7 +78,7 @@ function App() {
     setIsAsking(true);
 
     try {
-      const response = await fetch('http://localhost:8000/ask', {
+      const response = await fetch('https://multipdf-rag.onrender.com/ask', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
