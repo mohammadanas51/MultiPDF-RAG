@@ -10,3 +10,6 @@ wheels/
 .venv
 .env
 .idea/
+
+# Local databases and indices
+faiss_index/
